@@ -2,4 +2,4 @@ n1 = int(input("Digite um número: "))
 n2 = int(input("Digite mais um número: "))
 s = n1 + n2
 
-print("Se somarmos esses dois números, o resultado seria ", s)
+print("a soma entre {0} e {1} vale {2}".format(n1, n2, s))
